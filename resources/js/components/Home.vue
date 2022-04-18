@@ -38,7 +38,7 @@ export default {
         {
             axios.get('/home').then(res => this.usersposts = res.data);
             console.log(this.usersposts);
-}
+        }
     },
     mounted(){
 
